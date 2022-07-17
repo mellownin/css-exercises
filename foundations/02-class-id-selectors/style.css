@@ -1,3 +1,19 @@
 .odd {
     background-color: #ffc0cb ;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odd.cool {
+    font-size: 36px;
+}
+
+#eve2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#eve4 {
+    background-color: #5cda5c;
+    font-size: 24px;
+    font-weight: bold;
 }
