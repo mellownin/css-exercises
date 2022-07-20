@@ -1,5 +1,13 @@
 .siteButton {
- font-size: 28px;   
- font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;   
+    font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
+.siteButton.type1 {
+    background-color: black;
+    color: white;
+}
+
+.siteButton.type2 {
+    background-color: yellow;
+}
