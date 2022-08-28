@@ -20,6 +20,27 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 8px;
+}
+
+.modal .card-right {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.modal .card-title {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.modal .card-title .header {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .icon {
@@ -46,6 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
