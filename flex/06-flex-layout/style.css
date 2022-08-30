@@ -42,6 +42,7 @@ div.content {
   align-items: center;
   justify-content: center;
   flex: auto;
+  gap: 10px; 
 }
 
 div.footer {
