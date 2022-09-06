@@ -20,12 +20,17 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -51,9 +56,17 @@ body {
   color: #eee;
 }
 
+.card-panel {
+  display: flex;
+  flex-flow: wrap;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  flex: none;
+  width: 200px;
+
 }
