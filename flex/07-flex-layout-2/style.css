@@ -59,6 +59,8 @@ body {
 .card-panel {
   display: flex;
   flex-flow: wrap;
+  padding: 32px;
+  gap: 16px;
 }
 
 .card {
@@ -67,6 +69,6 @@ body {
   border-radius: 4px;
   display: flex;
   flex: none;
-  width: 200px;
+  width: 400px;
 
 }
